@@ -42,6 +42,7 @@ nav:
     - License: license.md
 
   - 🚀 Quick Start:
+    - Beginner's Guide: beginners_guide.md
     - Quickstart: quickstart.md
     - Core Concepts: core_concepts.md
     - YAML Configuration: yaml_config.md
