@@ -5,6 +5,40 @@
 
 ---
 
+## 📖 Beginner-Friendly Version
+
+**New to MiroFlow?** We've broken this document into individual, bite-sized pages with plain-English explanations and design rationale for every decision. Start here:
+
+### → **[docs/architecture/README.md](architecture/README.md)**
+
+| Page | Topic |
+|------|-------|
+| [01 — Overview](architecture/01-overview.md) | High-level architecture & the seven layers |
+| [02 — Directory Structure](architecture/02-directory-structure.md) | Where everything lives |
+| [03 — Entry Points & CLI](architecture/03-entry-points-and-cli.md) | CLI commands & usage |
+| [04 — Configuration System](architecture/04-configuration-system.md) | Hydra/YAML configuration explained |
+| [05 — Agent Architecture](architecture/05-agent-architecture.md) | Main/sub-agent hierarchy & prompts |
+| [06 — Orchestrator](architecture/06-orchestrator.md) | The brain: agent loops & retry logic |
+| [07 — Pipeline Layer](architecture/07-pipeline.md) | Component assembly |
+| [08 — LLM Client](architecture/08-llm-client.md) | LLM provider abstraction |
+| [09 — Tool System](architecture/09-tool-system.md) | MCP servers & tool execution |
+| [10 — Data Flow](architecture/10-data-flow.md) | End-to-end request tracing |
+| [11 — Data Schemas](architecture/11-data-schemas.md) | Data models & structures |
+| [12 — Logging](architecture/12-logging.md) | ZMQ logging & observability |
+| [13 — Benchmarks](architecture/13-benchmarks.md) | Benchmark evaluation system |
+| [14 — Input/Output](architecture/14-input-output.md) | Input/output processing |
+| [15 — Design Decisions](architecture/15-design-decisions.md) | All design rationales in one place |
+| [16 — API Reference](architecture/16-api-reference.md) | Core classes & functions |
+| [17 — Dependencies](architecture/17-dependencies.md) | Library overview |
+
+---
+
+## Full Reference (Original Document)
+
+The rest of this page contains the complete, detailed reference document. For the beginner-friendly version, see the individual pages linked above.
+
+---
+
 ## Table of Contents
 
 1. [High-Level Architecture](#1-high-level-architecture)
